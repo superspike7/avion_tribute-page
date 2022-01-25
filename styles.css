@@ -80,9 +80,8 @@ table {
 }
 
 #tribute-info {
-	text-align: center;
 	width: 80vw;
-	height: 500px;
+	height: 350px;
 	margin: 0 auto;
 
 	display: flex;
@@ -90,7 +89,12 @@ table {
 	justify-content: space-around;
 }
 
-#tribute-info h3 {
+#tribute-info h3, a {
+	text-align: center;
 	font-weight: bold;
 	font-size: 20px;
+}
+
+#tribute-info p {
+	font-size: 16px;
 }
