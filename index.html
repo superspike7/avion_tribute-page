@@ -3,19 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Marcus Aurelius Tribute</title>
-	<link rel="stylesheet" href="styles.css">
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-	<div id="main">
+	<div id="main" class="bg-gray-200">
 
-		<h1 id="title">Marcus Aurelius</h1>
+		<div class="h-screen w-4/5 text-center grid grid-cols-2 mx-auto ">
 
-		<div id="img-div">
-			<img id="image" src="image.jpg" alt="">
-			<p id="img-caption">
-“Not to feel exasperated, or defeated, or despondent because your days aren’t packed with wise and moral actions. But to get back up when you fail, to celebrate behaving like a human–however imperfectly–and fully embrace the pursuit that you’ve embarked on.”
-			</p>
+			<div class="tittle flex flex-col items-center justify-center order-1">
+				<h1 id="title" class="text-7xl font-semibold">Marcus Aurelius</h1>
+				<h3 class="text-3xl font-thin">Philosopher King</h3>
+			</div>
+
+			<div id="img-div" class="flex flex-col justify-center">
+				<img id="image" class="object-cover rounded-lg" src="image.jpg" alt="">
+				<p id="img-caption" class="italic font-light">
+	“Not to feel exasperated, or defeated, or despondent because your days aren’t packed with wise and moral actions. But to get back up when you fail, to celebrate behaving like a human–however imperfectly–and fully embrace the pursuit that you’ve embarked on.”
+				</p>
+			</div>
+
 		</div>
+
 
 		<div id="tribute-info">
 			<h3>
@@ -44,7 +52,6 @@
 					Marcus Aurelius' book "Meditations" taught me a lot of life changing lessons. Before I knew stoicism I had no idea what would I do with my life, I had so many self-destructing bad habits that almost might ruin my future. Now, I am slowly getting better as a person after reading some of his wisdom and applying it on my day-to-day basis.
 			</div>
 		</div>
-
 
 	</div>
 </body>
