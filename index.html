@@ -45,7 +45,7 @@
 					</p>
 				</div>
 
-				<a id="tribute-link" class="text-center underline text-2xl hover:text-gray-500" target="_blank" href="https://dailystoic.com/marcus-aurelius/">
+				<a id="tribute-link" class="text-center underline text-gray-900 text-2xl hover:text-gray-500" target="_blank" href="https://dailystoic.com/marcus-aurelius/">
 					read more on daily stoic
 				</a>
 
@@ -70,7 +70,88 @@
 			</div>
 		</div>
 
-		<div class="form h-screen w-full bg-gray-200">
+		<div class="form h-screen w-full bg-gray-200 flex items-center">
+
+			<div class="box w-[90%] sm:w-[35%] h-[90%] bg-gray-800 mx-auto rounded-3xl text-gray-200 p-2">
+				<h3 class="text-center text-gray-200 font-thin text-4xl sm:text-5xl mt-4 mb-16">Rate My Tribute Page</h3>
+				<form action="/">
+					<div class="fields w-[50%] mx-auto flex flex-col gap-5">
+
+						<div class="w-full flex flex-col gap-2">
+							<label for="name" class="sm:text-xl font-bold">What's your name?</label>
+							<input type="text" name="name" placeholder="Spike Vinz Cruz" class="rounded-sm sm:text-xl p-1 text-gray-800 flex-1">
+						</div>
+
+						<div class="w-full flex flex-col gap-2 ">
+							<label for="rating" class="sm:text-xl font-bold">What would you rate this page?</label>
+
+							<div class="radio-group flex gap-2">
+								<input type="radio" name="sm:rating" value="1" class="text-xl">
+								<label for="radio" class="sm:text-xl">1</label>
+
+								<input type="radio" name="sm:rating" value="2" class="text-xl">
+								<label for="radio" class="sm:text-xl">2</label>
+
+								<input type="radio" name="sm:rating" value="3" class="text-xl">
+								<label for="radio" class="sm:text-xl">3</label>
+
+								<input type="radio" name="sm:rating" value="4" class="text-xl">
+								<label for="radio" class="sm:text-xl">4</label>
+
+								<input type="radio" name="sm:rating" value="5" class="text-xl">
+								<label for="radio" class="sm:text-xl">5</label>
+							</div>
+						</div>
+
+						<div class="w-full flex flex-col gap-2">
+							<label for="selection" class="sm:text-xl font-bold">What do you like most about this page?</label>
+							<select id="selection" name="selection" class="sm:text-xl text-gray-800">
+								<option value="Design" selected >Design</option>
+								<option value="Copy" >Copy</option>
+								<option value="Topic" >Topic</option>
+								<option value="Layout" >Layout</option>
+							</select>
+						</div>
+
+						<div class="w-full flex flex-col gap-2">
+							<label for="selection" class="sm:text-xl font-bold">What do you hate most about this page?</label>
+							<select id="selection" name="selection" class="sm:text-xl text-gray-800">
+								<option value="Design" selected >Design</option>
+								<option value="Copy" >Copy</option>
+								<option value="Topic" >Topic</option>
+								<option value="Layout" >Layout</option>
+								<option value="None" >None</option>
+							</select>
+						</div>
+
+						<div class="w-full flex flex-col gap-2">
+							<label for="improvements" class="sm:text-xl font-bold">What needs changes to improve this Page?</label>
+
+							<div class="checkbox">
+								<input type="checkbox" name="Copy" value="Copy">
+								<label for="Copy" class="sm:text-lg">Copy</label>
+							</div>
+							<div class="checkbox">
+								<input type="checkbox" name="Layout" value="Layout">
+								<label for="Layout" class="sm:text-lg">Layout</label>
+							</div>
+							<div class="checkbox">
+								<input type="checkbox" name="Color" value="Color">
+								<label for="Color" class="sm:text-lg">Color</label>
+							</div>
+
+						<div class="w-full flex flex-col gap-2">
+							<label for="comment" class="sm:text-xl font-bold">What's your overall thoughts about this page?</label>
+							<textarea id="comment" name="comment" cols="10" rows="5" class="rounded-md text-gray-800 p-2 text-lg">I really love your work...</textarea>
+						</div>
+
+						<button type="submit" class="bg-blue-500 w-1/2 mx-auto text-gray-100 rounded-xl text-2xl mt-4">Submit</button>
+
+						</div>
+
+					</div>
+				</form>
+			</div>
 
 		</div>
 
